@@ -12,7 +12,7 @@ public class ApprovalTest {
             EmailEncodingKey = 'UTF-8',
             LastName = 'Manager',
             LanguageLocaleKey = 'en_US',
-            LocaleSidKey = 'en_US',
+            LocaleSidKey = 'en_US', 
             ProfileId = managerProfile.Id,
             TimeZoneSidKey = 'America/Los_Angeles',
             Username = 'mgr' + System.currentTimeMillis() + '@test.com'

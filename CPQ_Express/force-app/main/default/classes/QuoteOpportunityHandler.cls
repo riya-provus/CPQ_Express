@@ -23,11 +23,13 @@ public class QuoteOpportunityHandler {
         for(Id oppId : oppIds){
             allApprovedMap.put(oppId, true);
         }
+
         for(Quote q : allQuotes){
             if(q.Status != 'Approved'){
                 allApprovedMap.put(q.OpportunityId, false);
             }
         }
+        
         List<Opportunity> oppToUpdate = new List<Opportunity>();
 
         for(Id oppId : allApprovedMap.keySet()){
