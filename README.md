@@ -8,7 +8,7 @@ This project is built using Apex Classes, Triggers, and Test Classes following S
 ---
 
 ## Project Structure
-
+```
 cpq_express
 │
 ├── classes
@@ -24,7 +24,7 @@ cpq_express
 │   ├── DiscountExceedTrigger.trigger
 │
 └── README.md
-
+```
 ---
 
 ## Features Implemented
